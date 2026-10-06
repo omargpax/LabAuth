@@ -1,0 +1,9 @@
+quarkus:
+  http:
+    port: 8080
+  datasource:
+    db-kind: postgresql
+    username: ${APPS_POSTGRES_USERNAME}
+    password: ${APPS_POSTGRES_PASSWORD}
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/postgres
